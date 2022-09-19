@@ -1,0 +1,24 @@
+#app {
+ display: flex;
+ flex-direction: column;  
+ margin: 5%;
+}
+
+input, button {
+    width: 30%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 740px) {
+    input, button {
+        width: 80%;
+    }
+}
